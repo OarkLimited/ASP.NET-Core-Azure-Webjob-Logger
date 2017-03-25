@@ -1,0 +1,17 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "ASP.NET Core Webjob Logger",
+  "authors": [ "Kabue Charles (mckabue)" ],
+
+  "dependencies": {
+    "Microsoft.Extensions.Logging": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "Microsoft.Extensions.Logging.Debug": "1.1.0"
+  },
+
+  "frameworks": {
+    "net452": {
+      
+    }
+  }
+}
