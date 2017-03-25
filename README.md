@@ -1,6 +1,6 @@
 # [ASP.NET Core Webjob Logger](https://oarklimited.wordpress.com/asp-net-core-azure-webjob-logger)
 
-![Azure Webjob Running.PNG][azure]
+![Azure Webjob Running.PNG](ASP.NET-Core-Azure-Webjob-Logger/Azure Emulator.PNG "Azure Webjob Running.PNG")
 ASP.NET CORE has an implementation of a logger against which you can add a custom logger. I created a custom logger to demonstrate how you can implement your own custom logger. 
 The logger is implemented using a webjob to avoid overusing the resources of the main application and process the log independently of the main application at the background.
 The demo app is hosted here at GitHub. In the demo solution, there are three projects: Logger, Client and Webjob.
@@ -9,6 +9,4 @@ If you want to use a real storage account from azure, change the appsetting.json
 Also, you will learn how to implement dependency injection, how to use Interfaces to abstract a functionalities, and dynamic resolution of a webjob name.
 
 
-
-[azure]: Azure Webjob Running.PNG "Azure Webjob Running"
 
